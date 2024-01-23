@@ -1,0 +1,12 @@
+
+$test: 12
+
+@mixin test() {
+    color: blue
+}
+
+body {
+    @include test;
+
+    test: 12
+}

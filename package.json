@@ -1,0 +1,39 @@
+{
+  "name": "stylelint-config-guave-scss",
+  "version": "0.0.1",
+  "description": "stylelint config for guave projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint:style": "stylelint --ignore-path .gitignore '**/*.{css,scss,sass}'",
+    "lint:style:fix": "stylelint --fix --ignore-path .gitignore '**/*.{css,scss,sass}'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guavestudios/stylelint-config-guave-scss.git"
+  },
+  "keywords": [
+    "stylelint-config"
+  ],
+  "author": "guavestudios <https://github.com/guavestudios>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/guavestudios/stylelint-config-guave-scss/issues"
+  },
+  "homepage": "https://github.com/guavestudios/stylelint-config-guave-scss#readme",
+  "peerDependencies": {
+    "stylelint": ">=16.0.0"
+  },
+  "files": [
+    "index.js"
+  ],
+  "devDependencies": {
+    "stylelint": "^16.0.0"
+  },
+  "dependencies": {
+    "stylelint-config-recommended-scss": "^14.0.0",
+    "stylelint-config-recommended-vue": "^1.5.0",
+    "stylelint-config-standard": "^36.0.0",
+    "stylelint-config-standard-scss": "^13.0.0"
+  }
+}
