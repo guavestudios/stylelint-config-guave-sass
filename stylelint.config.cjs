@@ -13,6 +13,11 @@ module.exports = {
     'scss/at-import-no-partial-leading-underscore': null,
     'block-no-empty': null,
     'property-no-unknown': null,
-    'scss/comment-no-empty': null
+    'scss/comment-no-empty': null,
+    'scss/load-no-partial-leading-underscore': null,
+    'declaration-block-no-redundant-longhand-properties': null,
+    'no-empty-source': null,
+    'color-function-notation': null,
+    'alpha-value-notation': null,
   },
 }
