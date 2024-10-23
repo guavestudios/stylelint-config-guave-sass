@@ -19,5 +19,6 @@ module.exports = {
     'no-empty-source': null,
     'color-function-notation': null,
     'alpha-value-notation': null,
+    'scss/at-extend-no-missing-placeholder': null
   },
 }
